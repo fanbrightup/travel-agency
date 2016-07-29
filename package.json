@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/fanbrightup/travel-agency/issues"
   },
-  "homepage": "https://github.com/fanbrightup/travel-agency#readme"
+  "homepage": "https://github.com/fanbrightup/travel-agency#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express3-handlebars": "^0.5.2",
+    "handlebars": "^4.0.5"
+  }
 }
