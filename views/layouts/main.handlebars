@@ -2,12 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=no,
+      user-scalable=no, width=device-width">
     <title>Travel agency</title>
+    <style media="screen">
+      .mainHeader{
+
+        position:absolute;
+        top:0;
+        left:0;
+        height:60px;
+        width:100%;
+        text-align:center;
+        /*设置行高为div宽度,即可实现文字居中*/
+        line-height:60px;
+        background-color: rgb(61, 70, 144);
+      }
+      .mainFooter{
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        height: 10px;
+        width: 100%;
+        text-align:center;
+        line-height: 10px;
+        font-size:10px;
+        background-color: rgb(83, 210, 70);
+      }
+    </style>
   </head>
   <body>
-
+    <header class="mainHeader">
+      网页头部
+    </header>
     {{{body}}}
-
-    <img src="/img/2.jpg" alt="这是一副jpg图片"  />
+    <footer class="mainFooter">
+      网页底部
+      2016年&copy 范爷
+    </footer>
   </body>
 </html>
